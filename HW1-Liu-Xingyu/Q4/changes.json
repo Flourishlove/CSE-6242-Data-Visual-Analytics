@@ -1,0 +1,3219 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column event",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER",
+          "dinner",
+          "[DINNER]",
+          "Dinner",
+          "(DINNER)",
+          "DINNER;",
+          "DINNER (?)",
+          "DINNER(?)",
+          "dinner ",
+          "[DINNER?]",
+          "(?DINNER?)",
+          "DINNER,",
+          "DINNER?",
+          "[?DINNER?]",
+          "[DINNER ?]"
+        ],
+        "to": "DINNER"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column event",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH",
+          "lunch",
+          "Lunch",
+          "[LUNCH]",
+          "(?LUNCH?)",
+          "LUNCH;",
+          "[LUNCH?]",
+          "(LUNCH)",
+          "LUNCH (?)",
+          "LUNCH."
+        ],
+        "to": "LUNCH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BREAKFAST",
+          "Breakfast",
+          "breakfast",
+          "[BREAKFAST]",
+          "BREAKFAST;",
+          "BREAKFAST (?)",
+          "BREAKFAST(?)",
+          "[BREAKFAST ?]"
+        ],
+        "to": "BREAKFAST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU",
+          "daily menu",
+          "Daily menu",
+          "(DAILY MENU)",
+          "DAILY MENU;",
+          "[DAILY MENU?]",
+          "[DAILY] MENU"
+        ],
+        "to": "DAILY MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SUPPER",
+          "supper",
+          "SUPPER (?)",
+          "SUPPER(?)",
+          "Supper",
+          "SUPPER;"
+        ],
+        "to": "SUPPER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCHEON",
+          "[LUNCHEON]",
+          "LUNCHEON;",
+          "Luncheon",
+          "luncheon"
+        ],
+        "to": "LUNCHEON"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Afternoon tea",
+          "AFTERNOON TEA",
+          "afternoon tea",
+          "afternoon tea ["
+        ],
+        "to": "Afternoon tea"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINE LIST",
+          "wine list",
+          "WINE LIST;",
+          "Wine list"
+        ],
+        "to": "WINE LIST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TABLE D'HOTE DINNER",
+          "DINNER TABLE D'HOTE",
+          "TABLE d'HOTE DINNER"
+        ],
+        "to": "TABLE D'HOTE DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CARTE DU JOUR",
+          "(CARTE DU JOUR)",
+          "CARTE DU JOUR;"
+        ],
+        "to": "CARTE DU JOUR"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH & DINNER",
+          "lunch; dinner",
+          "[?DINNER? - LUNCH?]"
+        ],
+        "to": "LUNCH & DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRUHSTUCK-BREAKFAST",
+          "FRUHSTUCK/BREAKFAST",
+          "FRUHSTUCK/BREAKFAST;"
+        ],
+        "to": "FRUHSTUCK-BREAKFAST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY DINNER MENU",
+          "DAILY MENU; DINNER"
+        ],
+        "to": "DAILY MENU, DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER A LA CARTE",
+          "a la carte; dinner",
+          "dinner; a la carte"
+        ],
+        "to": "DINNER A LA CARTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU",
+          "Menu",
+          "MENU;"
+        ],
+        "to": "MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY LUNCH MENU",
+          "DAILY MENU, LUNCH",
+          "DAILY MENU; LUNCH"
+        ],
+        "to": "DAILY LUNCH MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ANNUAL DINNER",
+          "Annual Dinner",
+          "[ANNUAL DINNER?]"
+        ],
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER MENU",
+          "Dinner Menu",
+          "Dinner menu"
+        ],
+        "to": "DINNER MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH OR DINNER",
+          "DINNER OR LUNCH",
+          "LUNCH &/OR DINNER"
+        ],
+        "to": "LUNCH OR DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ANNIVERSARY DINNER",
+          "ANNIVERSARY DINNER?",
+          "ANNIVERSARY [DINNER]"
+        ],
+        "to": "ANNIVERSARY DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MITTAGESSEN",
+          "MITTAG-ESSEN",
+          "MITTAGESSEN;"
+        ],
+        "to": "MITTAGESSEN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSPECTION TRIP - LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON;"
+        ],
+        "to": "INSPECTION TRIP - LUNCHEON"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE",
+          "a la carte",
+          "a la Carte"
+        ],
+        "to": "A LA CARTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BANQUET AND RECEPTION",
+          "reception and banquet"
+        ],
+        "to": "BANQUET AND RECEPTION"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER SECOND CABIN"
+        ],
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSPECTION TRIP, DINNER",
+          "INSPECTION TRIP, DINNER;"
+        ],
+        "to": "INSPECTION TRIP, DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MITTAGESSEN/DINNER",
+          "MITTAGESSEN[DINNER]"
+        ],
+        "to": "MITTAGESSEN/DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH MENU",
+          "Lunch menu"
+        ],
+        "to": "LUNCH MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER,SECOND CABIN",
+          "DINNER-SECOND CABIN"
+        ],
+        "to": "DINNER,SECOND CABIN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "REUNION",
+          "[?REUNION?]"
+        ],
+        "to": "REUNION"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCHEON TABLE D'HOTE",
+          "TABLE D'HOTE LUNCHEON"
+        ],
+        "to": "LUNCHEON TABLE D'HOTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tea Menu",
+          "tea menu"
+        ],
+        "to": "Tea Menu"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LADIES NIGHT",
+          "LADIES' NIGHT"
+        ],
+        "to": "LADIES NIGHT"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BREAKFAST AND SUPPER",
+          "SUPPER  AND BREAKFAST"
+        ],
+        "to": "BREAKFAST AND SUPPER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCHEON MENU",
+          "Luncheon Menu"
+        ],
+        "to": "LUNCHEON MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH A LA CARTE",
+          "Lunch A La Carte"
+        ],
+        "to": "LUNCH A LA CARTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Room service",
+          "room service"
+        ],
+        "to": "Room service"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WEDDING(?)",
+          "wedding"
+        ],
+        "to": "WEDDING(?)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RECEPTION",
+          "[RECEPTION]"
+        ],
+        "to": "RECEPTION"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WASHINGTON'S BIRTHDAY BANQUET",
+          "BANQUET (WASHINGTON'S BIRTHDAY?)"
+        ],
+        "to": "WASHINGTON'S BIRTHDAY BANQUET"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ABEND-ESSEN",
+          "ABENDESSEN"
+        ],
+        "to": "ABEND-ESSEN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BANQUET",
+          "Banquet"
+        ],
+        "to": "BANQUET"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Breakfast (?) Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington",
+          "Breakfast  Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington"
+        ],
+        "to": "Breakfast (?) Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINER",
+          "[DINER]"
+        ],
+        "to": "DINER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH AND DINNER",
+          "lunch and dinner"
+        ],
+        "to": "LUNCH AND DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER TO ABOVE",
+          "DINNER TO ABOVE;"
+        ],
+        "to": "DINNER TO ABOVE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY LUNCH;",
+          "DAILY LUNCH"
+        ],
+        "to": "DAILY LUNCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCHEON A LA CARTE",
+          "LUNCHEON, A LA CARTE"
+        ],
+        "to": "LUNCHEON A LA CARTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LINCOLN'S BIRTHDAY DINNER",
+          "DINNER, LINCOLNS BIRTHDAY"
+        ],
+        "to": "LINCOLN'S BIRTHDAY DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NEW YEAR'S DINNER",
+          "NEW YEARS DINNER"
+        ],
+        "to": "NEW YEAR'S DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FIFTH ANNUAL DINNER",
+          "DINNER, FIFTH ANNUAL"
+        ],
+        "to": "FIFTH ANNUAL DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST. VALENTINE'S DAY DINNER",
+          "ST. VALENTINES DAY DINNER"
+        ],
+        "to": "ST. VALENTINE'S DAY DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRUHSTUCK/LUNCH",
+          "FRUHSTUCK-LUNCH"
+        ],
+        "to": "FRUHSTUCK/LUNCH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TESTIMONIAL DINNER",
+          "Testimonial Dinner"
+        ],
+        "to": "TESTIMONIAL DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NEW YEAR'S DAY DINNER",
+          "NEW YEARS DAY DINNER"
+        ],
+        "to": "NEW YEAR'S DAY DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EIGHTH ANNUAL BANQUET",
+          "EIGHTH ANNUAL BANQUET'"
+        ],
+        "to": "EIGHTH ANNUAL BANQUET"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, BREAKFAST",
+          "DAILY BREAKFAST MENU"
+        ],
+        "to": "DAILY MENU, BREAKFAST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BREAKFAST MENU",
+          "Breakfast Menu"
+        ],
+        "to": "BREAKFAST MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY LUNCHEON MENU"
+        ],
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Daily",
+          "DAILY"
+        ],
+        "to": "Daily"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRIVATE DINNER",
+          "[PRIVATE DINNER?]"
+        ],
+        "to": "PRIVATE DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSPECTION TRIP, BREAKFAST",
+          "INSPECTION TRIP - BREAKFAST"
+        ],
+        "to": "INSPECTION TRIP, BREAKFAST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SUPPER MENU",
+          "Supper Menu"
+        ],
+        "to": "SUPPER MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN [DINNER]"
+        ],
+        "to": "MITTAGESSEN - DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH-DINNER",
+          "LUNCH;DINNER"
+        ],
+        "to": "LUNCH-DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MIDDAG/DINNER",
+          "MIDDAG-DINNER"
+        ],
+        "to": "MIDDAG/DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY BILL OF FARE",
+          "DAILY BILL OF FARE;"
+        ],
+        "to": "DAILY BILL OF FARE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FOURTH ANNUAL DINNER",
+          "Fourth Annual Dinner"
+        ],
+        "to": "FOURTH ANNUAL DINNER"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column event",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER",
+          "DINNNER"
+        ],
+        "to": "DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "(DINNER DANCE)",
+          "DINNER-DANCE"
+        ],
+        "to": "(DINNER DANCE)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY MENU,DINNER"
+        ],
+        "to": "DAILY MENU, DINNER"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column venue",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "venue",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOC;",
+          "SOC",
+          "[SOC?];",
+          "SOC(?);",
+          "SOC.",
+          "[SOC]",
+          "SOC?;",
+          "(SOC);",
+          "(SOC?)",
+          "(SOC?);",
+          "SOC (?);",
+          "SOC(?):",
+          "[?SOC];",
+          "[SOC;]",
+          "[SOC?]",
+          "[SOC];"
+        ],
+        "to": "SOC;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GOVT;",
+          "GOVT(?);",
+          "GOV'T;",
+          "[GOVT?];",
+          "GOV'T",
+          "GOV'T.",
+          "GOVT",
+          "GOVT?;",
+          "[GOVT?]",
+          "[GOVT];"
+        ],
+        "to": "GOVT;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COM",
+          "COM.",
+          "[COM]",
+          "(COM?);",
+          "COM(?);",
+          "COM.;",
+          "[COM?];",
+          "[COM}"
+        ],
+        "to": "COM"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PROF;",
+          "PROF",
+          "PROF(?);",
+          "PROF.",
+          "PROF?;",
+          "[PROF?];",
+          "[PROF]"
+        ],
+        "to": "PROF;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EDUC;",
+          "EDUC",
+          "EDUC (?);",
+          "[EDUC];",
+          "(EDUC);",
+          "[EDUC?];"
+        ],
+        "to": "EDUC;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "POL;",
+          "POL",
+          "[POL]",
+          "POL.;",
+          "[POL?);",
+          "[POL?]"
+        ],
+        "to": "POL;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NAV;",
+          "NAV; (?)",
+          "NAV.",
+          "NAV",
+          "NAV(?);"
+        ],
+        "to": "NAV;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MIL;",
+          "MIL",
+          "MIL (?);",
+          "MIL.",
+          "[MIL?];"
+        ],
+        "to": "MIL;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER;(PRIVATE);",
+          "OTHER,(PRIVATE);",
+          "OTHER,PRIVATE",
+          "OTHER;PRIVATE;",
+          "[OTHER;PRIVATE];"
+        ],
+        "to": "OTHER;(PRIVATE);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PATR;",
+          "PATR",
+          "PATR(?);",
+          "PATR."
+        ],
+        "to": "PATR;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COMM",
+          "COMM.",
+          "COMM;",
+          "COMM;."
+        ],
+        "to": "COMM"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER (PRIVATE PARTY);",
+          "OTHER (PRIVATE PARTY)",
+          "OTHER (PRIVATE PARTY?)",
+          "OTHER (PRIVATE PARTY?);"
+        ],
+        "to": "OTHER (PRIVATE PARTY);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RELIG;",
+          "RELIG",
+          "RELIG?;"
+        ],
+        "to": "RELIG;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER (PRIVATE CLUB)",
+          "OTHER (PRIVATE CLUB);",
+          "OTHER [PRIVATE CLUB?]"
+        ],
+        "to": "OTHER (PRIVATE CLUB)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GOV;",
+          "GOV.",
+          "[GOV];"
+        ],
+        "to": "GOV;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NAVAL",
+          "NAVAL;",
+          "[NAVAL]"
+        ],
+        "to": "NAVAL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOCIAL",
+          "SOCIAL;",
+          "(SOCIAL?)"
+        ],
+        "to": "SOCIAL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "?",
+          "[?]"
+        ],
+        "to": "?"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "POL; SOC;",
+          "SOC; POL;"
+        ],
+        "to": "POL; SOC;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER (CLUB);",
+          "OTHER (CLUB)"
+        ],
+        "to": "OTHER (CLUB);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOCIAL CLUB",
+          "SOCIAL CLUB?"
+        ],
+        "to": "SOCIAL CLUB"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER",
+          "OTHER;"
+        ],
+        "to": "OTHER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER;(PERSONAL);",
+          "OTHER(PERSONAL);"
+        ],
+        "to": "OTHER;(PERSONAL);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FOREIGN",
+          "FOREIGN;"
+        ],
+        "to": "FOREIGN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER (PRIVATE);",
+          "OTHER [PRIVATE];"
+        ],
+        "to": "OTHER (PRIVATE);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MILITARY",
+          "[MILITARY]"
+        ],
+        "to": "MILITARY"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PAT;",
+          "PAT"
+        ],
+        "to": "PAT;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "(EDUCATIONAL)",
+          "EDUCATIONAL;"
+        ],
+        "to": "(EDUCATIONAL)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PATRIOTIC",
+          "PATRIOTIC?"
+        ],
+        "to": "PATRIOTIC"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRIVATE;",
+          "(PRIVATE);"
+        ],
+        "to": "PRIVATE;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRIVATE PARTY",
+          "PRIVATE PARTY;"
+        ],
+        "to": "PRIVATE PARTY"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date using expression grel:value.toDate('yyyy-mm-dd').toString('EEEE MMMM d, yyyy')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "date",
+    "expression": "grel:value.toDate('yyyy-mm-dd').toString('EEEE MMMM d, yyyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Is German and English at index 9 based on column notes using expression grel:value.startsWith(\"MENU IN GERMAN AND ENGLISH\") OR value.startsWith(\"MENU IN ENGLISH AND GERMAN\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Is German and English",
+    "columnInsertIndex": 9,
+    "baseColumnName": "notes",
+    "expression": "grel:value.startsWith(\"MENU IN GERMAN AND ENGLISH\") OR value.startsWith(\"MENU IN ENGLISH AND GERMAN\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Is German and English",
+    "columnName": "Is German and English"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Explorers Club",
+          "The Explorers' Club",
+          "The Explorer's Club"
+        ],
+        "to": "The Explorers' Club"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN AND ENGLISH",
+          "MENU IN GERMAN AND IN ENGLISH",
+          "MENU IN GERMAN AND ENGLISH;"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2ND CABIN MENU HANDWRITTEN;",
+          "2ND CABIN MENU; HANDWRITTEN;",
+          "MENU HANDWRITTEN; 2ND CABIN MENU;",
+          "MENU HANDWRITTEN; 2ND CABIN;",
+          "MENU HANDWRITTEN; 2ND CABIN"
+        ],
+        "to": "2ND CABIN MENU HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINE LIST",
+          "WINE LIST;",
+          "Wine List",
+          "wine list",
+          "Wine list"
+        ],
+        "to": "WINE LIST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection.",
+          "Dieter Zander Collection",
+          "Dieter Zander Collection. ",
+          "Dieter Zander Collection;"
+        ],
+        "to": "Dieter Zander Collection."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English and French are secondary languages",
+          "French and English are secondary languages",
+          "French and English are secondary languages."
+        ],
+        "to": "English and French are secondary languages"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English is secondary language",
+          "English is secondary language. ",
+          "English is secondary language."
+        ],
+        "to": "English is secondary language"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TYPEWRITTEN AND MECHANICALLY  REPRODUCED;",
+          "TYPEWRITTEN AND MECHANICALLY REPRODUCED",
+          "TYPEWRITTEN AND MECHANICALLY REPRODUCED;"
+        ],
+        "to": "TYPEWRITTEN AND MECHANICALLY  REPRODUCED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN;",
+          "HANDWRITTEN MENU;",
+          "MENU HANDWRITTEN"
+        ],
+        "to": "MENU HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN IN FRENCH;",
+          "MENU IN FRENCH; HANDWRITTEN;",
+          "HANDWRITTEN MENU IN FRENCH;"
+        ],
+        "to": "MENU HANDWRITTEN IN FRENCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Room Service (Dinner)",
+          "Room Service Dinner",
+          "room service dinner"
+        ],
+        "to": "Room Service (Dinner)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN, LOGO;",
+          "LOGO; HANDWRITTEN;",
+          "HANDWRITTEN;, LOGO;"
+        ],
+        "to": "HANDWRITTEN, LOGO;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SHIP AT SEA;  MENU IN GERMAN ;  MAY BE USED AS POSTCARD;",
+          "SHIP AT SEA;  MENU IN GERMAN;  MAY BE USED AS POSTCARD;",
+          "SHIP AT SEA; MENU IN GERMAN;  MAY BE USED AS POSTCARD;"
+        ],
+        "to": "SHIP AT SEA;  MENU IN GERMAN ;  MAY BE USED AS POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2 COPIES;",
+          "2 COPIES",
+          "2 copies"
+        ],
+        "to": "2 COPIES;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Technical Society of the Brooklyn Union Gas Company",
+          "The Technical Society of the Brooklyn Union Gas Company"
+        ],
+        "to": "Technical Society of the Brooklyn Union Gas Company"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "menu is ripped",
+          "Menu is ripped"
+        ],
+        "to": "menu is ripped"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH;WINES SERVED;2 COPIES",
+          "MENU IN FRENCH;WINES SERVED;2 COPIES;"
+        ],
+        "to": "MENU IN FRENCH;WINES SERVED;2 COPIES"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PROGRAM INCLUDED",
+          "PROGRAM INCLUDED;"
+        ],
+        "to": "PROGRAM INCLUDED"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICES LISTED FOR EACH ITEM; COMPLETE WINE LIST & PRICES ON BACK;",
+          "PRICES LISTED FOR EACH ITEM; COMPLETE WINE LIST ON BACK;"
+        ],
+        "to": "PRICES LISTED FOR EACH ITEM; COMPLETE WINE LIST & PRICES ON BACK;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Includes a la carte and table d'hote menu options.",
+          "Includes a la carte and table d'hote menu options. "
+        ],
+        "to": "Includes a la carte and table d'hote menu options."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES ALL WINES",
+          "INCLUDES ALL WINES;"
+        ],
+        "to": "INCLUDES ALL WINES"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "lunch counter - luncheon",
+          "lunch counter luncheon"
+        ],
+        "to": "lunch counter - luncheon"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LOGO;",
+          "LOGO"
+        ],
+        "to": "LOGO;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HOTEL OR INN?",
+          "HOTEL OR INN?;"
+        ],
+        "to": "HOTEL OR INN?"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection; hotel coat of arms on cover",
+          "Dieter Zander Collection; Hotel coat of arms on cover"
+        ],
+        "to": "Dieter Zander Collection; hotel coat of arms on cover"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LOGO; BLUE STOCK;",
+          "BLUE; STOCK; LOGO;"
+        ],
+        "to": "LOGO; BLUE STOCK;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "College of Pharmacy, Columbia University",
+          "College of Pharmacy - Columbia University"
+        ],
+        "to": "College of Pharmacy, Columbia University"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE PRICED MENU; HOTEL SEAL AT TOP OF MENU;",
+          "PRICED A LA CARTE MENU; HOTEL SEAL AT TOP OF MENU;"
+        ],
+        "to": "A LA CARTE PRICED MENU; HOTEL SEAL AT TOP OF MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SPEAKERS & OFFICERS LISTED;",
+          "OFFICERS & SPEAKERS LISTED;"
+        ],
+        "to": "SPEAKERS & OFFICERS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED MENU; NOTE ABOUT PURITY OF WATER;",
+          "PRICED MENU; NOTE ABOUT PURITY OF WATER;;"
+        ],
+        "to": "PRICED MENU; NOTE ABOUT PURITY OF WATER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED MENU;",
+          "PRICED MENU"
+        ],
+        "to": "PRICED MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GREEN STOCK; LOGO;",
+          "LOGO; GREEN STOCK;"
+        ],
+        "to": "GREEN STOCK; LOGO;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GRAY STOCK; LOGO;",
+          "LOGO; GRAY STOCK;"
+        ],
+        "to": "GRAY STOCK; LOGO;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English is the secondary language.",
+          "English is the secondary language"
+        ],
+        "to": "English is the secondary language."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN;RED BORDER;",
+          "HANDWRITTEN;RED BORDER"
+        ],
+        "to": "HANDWRITTEN;RED BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TABLE D'HOTE MENU; HOTEL SEAL AT TOP OF MENU;",
+          "TABLE D'HOTE MENU; HOTEL SEAL AT TOP OF MENU"
+        ],
+        "to": "TABLE D'HOTE MENU; HOTEL SEAL AT TOP OF MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN; ILLUSTRATION OF STEAMER AND WOMAN IN CLASSICAL DRESS HOLDING HAMBURG-AMERIKA LOGO; NOTE ABOUT  CONTRIBUTIONS FOR MUSICIANS;",
+          "MENU IN GERMAN; ILLUSTRATION OF STEAMER AND WOMAN IN CLASSICAL DRESS HOLDING HAMBURG-AMERIKA LOGO; NOTE ABOUT CONTRIBUTIONS FOR MUSICIANS;"
+        ],
+        "to": "MENU IN GERMAN; ILLUSTRATION OF STEAMER AND WOMAN IN CLASSICAL DRESS HOLDING HAMBURG-AMERIKA LOGO; NOTE ABOUT  CONTRIBUTIONS FOR MUSICIANS;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED WINE LIST;",
+          "PRICED WINE LIST"
+        ],
+        "to": "PRICED WINE LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICES LISTED FOR EACH ITEM;",
+          "PRICES FOR EACH ITEM LISTED;"
+        ],
+        "to": "PRICES LISTED FOR EACH ITEM;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN & PRICE INCLUDED;",
+          "MENU HANDWRITTEN; PRICE INCLUDED;"
+        ],
+        "to": "MENU HANDWRITTEN & PRICE INCLUDED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AMERICAN PLAN MENU; LOGO; NOTE ABOUT PURITY OF WATER;",
+          "LOGO; AMERICAN PLAN MENU; NOTE ABOUT PURITY OF WATER;"
+        ],
+        "to": "AMERICAN PLAN MENU; LOGO; NOTE ABOUT PURITY OF WATER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH AND ENGLISH; A LA CARTE PRICED MENU;",
+          "PRICED A LA CARTE MENU IN ENGLISH AND FRENCH;"
+        ],
+        "to": "MENU IN FRENCH AND ENGLISH; A LA CARTE PRICED MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINE LIST WITH PRICES ON BACK",
+          "WINE LIST WITH PRICES ON BACK;"
+        ],
+        "to": "WINE LIST WITH PRICES ON BACK"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TABLE D'HOTE DINNER;",
+          "Table D'Hote Dinner"
+        ],
+        "to": "TABLE D'HOTE DINNER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Thanksgiving Menu ",
+          "Thanksgiving menu"
+        ],
+        "to": "Thanksgiving Menu "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE PRICED MENU; HOTEL SEAL AT TOP;",
+          "A LA CARTE, PRICED MENU; HOTEL SEAL AT TOP;"
+        ],
+        "to": "A LA CARTE PRICED MENU; HOTEL SEAL AT TOP;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "French line",
+          "French Line"
+        ],
+        "to": "French line"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Afternoon Tea",
+          "afternoon tea"
+        ],
+        "to": "Afternoon Tea"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN AND ENGLISH; GOLD BORDER",
+          "MENU IN GERMAN AND ENGLISH;  GOLD BORDER"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH; GOLD BORDER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COMMITTEE MEMBERS & SPEAKERS LISTED;",
+          "SPEAKERS & COMMITTEE MEMBERS LISTED;"
+        ],
+        "to": "COMMITTEE MEMBERS & SPEAKERS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DATE: MAY, 1900 HAND-WRITTEN [FEB?];",
+          "HAND-WRITTEN DATE: \"MAY 1900\" [FEB?];"
+        ],
+        "to": "DATE: MAY, 1900 HAND-WRITTEN [FEB?];"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "General Superintendent, Dining Car Service : John F. Finnegan. Advertisement on verso for The Luxury Fleet.",
+          "General Superintendent, Dining Car Service : John F. Finnegan. Advertisement for The Luxury Fleet on verso."
+        ],
+        "to": "General Superintendent, Dining Car Service : John F. Finnegan. Advertisement on verso for The Luxury Fleet."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "station café - dinner",
+          "station café dinner"
+        ],
+        "to": "station café - dinner"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH AND ENGLISH;",
+          "MENU IN FRENCH AND IN ENGLISH;"
+        ],
+        "to": "MENU IN FRENCH AND ENGLISH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITEN",
+          "MENU HANDWRITEN;"
+        ],
+        "to": "MENU HANDWRITEN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH,WINES INCLUDED;",
+          "MENU IN FRENCH;WINES INCLUDED;"
+        ],
+        "to": "MENU IN FRENCH,WINES INCLUDED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Menu also contains English text",
+          "menu also contains English text"
+        ],
+        "to": "Menu also contains English text"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FLAG;HOURS;ONE BUGLE CALL",
+          "FLAG;HOURS;ONE BUGLE CALL;"
+        ],
+        "to": "FLAG;HOURS;ONE BUGLE CALL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OFFICERS & COMMITTEE MEMBERS LISTED;",
+          "OFFICERS,& COMMITTEE MEMBERS LISTED;"
+        ],
+        "to": "OFFICERS & COMMITTEE MEMBERS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Bankers Association",
+          "American Bankers' Association"
+        ],
+        "to": "American Bankers Association"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN IN ENGLISH;",
+          "MENU HANDWRITTEN IN ENGLISH"
+        ],
+        "to": "MENU HANDWRITTEN IN ENGLISH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES WINES;",
+          "INCLUDES WINES"
+        ],
+        "to": "INCLUDES WINES;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINES;",
+          "WINES"
+        ],
+        "to": "WINES;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "breakfast",
+          "Breakfast"
+        ],
+        "to": "breakfast"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "room service breakfast",
+          "Breakfast room service"
+        ],
+        "to": "room service breakfast"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SEPARATE LISTING IN ENGLISH AND GERMAN;MUSICAL PROGRAM",
+          "SEPARATE LISTING IN ENGLISH AND GERMAN;MUSICAL PROGRAM;"
+        ],
+        "to": "SEPARATE LISTING IN ENGLISH AND GERMAN;MUSICAL PROGRAM"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DATE HANDWRITTEN BY FB;",
+          "DATE HANDWRITTEN BY FB"
+        ],
+        "to": "DATE HANDWRITTEN BY FB;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "dining car service",
+          "Dining Car Service"
+        ],
+        "to": "dining car service"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EMBOSSED PORTRAIT OF WOMAN AT TOP OF MENU;",
+          "PORTRAIT OF WOMAN EMBOSSED AT TOP OF MENU;"
+        ],
+        "to": "EMBOSSED PORTRAIT OF WOMAN AT TOP OF MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection; embossed cover",
+          "Dieter Zander Collection; embossed cover."
+        ],
+        "to": "Dieter Zander Collection; embossed cover"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH; EVNT NOTED BY FEB IN FRENCH;",
+          "MENU IN FRENCH; EVNT NOTED BY FEB;"
+        ],
+        "to": "MENU IN FRENCH; EVNT NOTED BY FEB IN FRENCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DATE HANDWRITTEN;",
+          "DATE HAND-WRITTEN;"
+        ],
+        "to": "DATE HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ILLUS OF HOTEL; WINE LIST",
+          "WINE LIST; ILLUS OF HOTEL"
+        ],
+        "to": "ILLUS OF HOTEL; WINE LIST"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English, french and Italian are secondary languages",
+          "French, English, and Italian are secondary languages"
+        ],
+        "to": "English, french and Italian are secondary languages"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "French is secondary language",
+          "French is secondary language."
+        ],
+        "to": "French is secondary language"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE MENU; HOTEL SEAL AT TOP OF MENU;",
+          "A LA CARTE MENU; HOTEL SEAL AT TOP OF  MENU;"
+        ],
+        "to": "A LA CARTE MENU; HOTEL SEAL AT TOP OF MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Denver Hotel and Restaurant Keepers' Association",
+          "Denver Hotel and restaurant Keepers' Association"
+        ],
+        "to": "Denver Hotel and Restaurant Keepers' Association"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALL SPEAKERS LISTED & COMMITTEE MEMBERS INCLUDED;",
+          "ALL SPEAKERS LISTED; ALL COMMITTEE MEMBERS INCLUDED;"
+        ],
+        "to": "ALL SPEAKERS LISTED & COMMITTEE MEMBERS INCLUDED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TOASTS LISTED;",
+          "TOASTS LISTED"
+        ],
+        "to": "TOASTS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Bankers' Club of Chicago",
+          "The Bankers Club of Chicago"
+        ],
+        "to": "The Bankers' Club of Chicago"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Camp-fire Club of America",
+          "Campfire Club of America"
+        ],
+        "to": "Camp-fire Club of America"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Baratta collection; room service; Marcel (Headwaiter); room service charge 50 cents per person; Cheeses from France & Other Countries",
+          "Baratta collection; room service; Marcel (headwaiter); room service charge 50 cents per person; Cheeses from France & Other Countries"
+        ],
+        "to": "Baratta collection; room service; Marcel (Headwaiter); room service charge 50 cents per person; Cheeses from France & Other Countries"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society of the Genesee",
+          "The Society of the Genesee"
+        ],
+        "to": "Society of the Genesee"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Fifth International Congress of Chambers of Commerce and Commercial and Industrial Associations",
+          "Fifth International Congress of Chambers of Commerce and Industrial and Commercial Associations"
+        ],
+        "to": "Fifth International Congress of Chambers of Commerce and Commercial and Industrial Associations"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN;",
+          "HAND-WRITTEN;"
+        ],
+        "to": "HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH; SPONSOR AND EVENT NOTED BY FEB;",
+          "MENU IN FRENCH; SPONSOR AND EVENT NOTED BY FEB"
+        ],
+        "to": "MENU IN FRENCH; SPONSOR AND EVENT NOTED BY FEB;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED MENU AND WINE LIST;",
+          "PRICED WINE LIST AND MENU;"
+        ],
+        "to": "PRICED MENU AND WINE LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE MENU; INCLUDES PRICED WINE & LIQUOR LIST;  PHOTO OF HOTEL ON COVER;",
+          "A LA CARTE MENU; INCLUDES PRICED WINE & LIQUOR LIST; PHOTO OF HOTEL ON COVER;"
+        ],
+        "to": "A LA CARTE MENU; INCLUDES PRICED WINE & LIQUOR LIST;  PHOTO OF HOTEL ON COVER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN; RED ORNAMENTAL BORDER;",
+          "HANDWRITTEN; RED; ORNAMENTAL BORDER;"
+        ],
+        "to": "HANDWRITTEN; RED ORNAMENTAL BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED A LA CARTE MENU;",
+          "A LA CARTE PRICED MENU"
+        ],
+        "to": "PRICED A LA CARTE MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English, French and German are secondary languages",
+          "Secondary languages are French, English, and German."
+        ],
+        "to": "English, French and German are secondary languages"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN ON PRINTED FORM;MECHANICALLY REPRODUCED;2 COPIES",
+          "HANDWRITTEN ON PRINTED FORM;MECHANICALLY REPRODUCED;2 COPIES;"
+        ],
+        "to": "HANDWRITTEN ON PRINTED FORM;MECHANICALLY REPRODUCED;2 COPIES"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SUNDAY DINNER;",
+          "Sunday dinner"
+        ],
+        "to": "SUNDAY DINNER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN BOTH GERMAN & ENGLISH; MUSIC PROGRAM INCLUDED;",
+          "MENU IN BOTH GERMAN & ENGLISH; MUSIC PROGRAM INCLUDED'"
+        ],
+        "to": "MENU IN BOTH GERMAN & ENGLISH; MUSIC PROGRAM INCLUDED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRENCH MENU;WINES",
+          "FRENCH MENU;WINES;"
+        ],
+        "to": "FRENCH MENU;WINES"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINES LISTED; MENU IN FRENCH;",
+          "MENU IN FRENCH; WINES LISTED;"
+        ],
+        "to": "WINES LISTED; MENU IN FRENCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED MENU; CREST;",
+          "PRICED MENU;; CREST;"
+        ],
+        "to": "PRICED MENU; CREST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Testimonial Dinner to James A Farley",
+          "Testimonial Dinner to James A. Farley"
+        ],
+        "to": "Testimonial Dinner to James A Farley"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dinner room service menu",
+          "Room Service Dinner Menu"
+        ],
+        "to": "Dinner room service menu"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED MENU; MENU HANDWRITTEN;",
+          "PRICED MENU; HANDWRITTEN;"
+        ],
+        "to": "PRICED MENU; MENU HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DECORATIVE BORDER;",
+          "DECORATIVE BORDER"
+        ],
+        "to": "DECORATIVE BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GERMAN & ENGLISH; ILLUSTRATION OF WOMAN IN CLASSICAL DRESS HOLDING SHIELD WITH INITIALS H.P.A.A.G., AND STEAMER;",
+          "GERMAN & ENGLISH; ILLUSTRATION OF WOMAN IN CLASSICAL DRESS HOLDING SHIELD WITH INITIALS H.P.A.A.G.; AND STEAMER;"
+        ],
+        "to": "GERMAN & ENGLISH; ILLUSTRATION OF WOMAN IN CLASSICAL DRESS HOLDING SHIELD WITH INITIALS H.P.A.A.G., AND STEAMER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN; ILLUSTRATION OF SAMURAI(?); MAP ON BACK OF ROUTES COVERED BY LINE;",
+          "HANDWRITTEN; ILLUSTRATION OF SAMURAI; MAP ON BACK OF ROUTES COVERED BY LINE;"
+        ],
+        "to": "HANDWRITTEN; ILLUSTRATION OF SAMURAI(?); MAP ON BACK OF ROUTES COVERED BY LINE;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN AND ENGLISH; ILLUSTRATION OF BOY, FLAGS, LOGO",
+          "MENU IN GERMAN AND ENGLISH; ILLUSTRATION OF BOY, FLAGS; LOGO"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH; ILLUSTRATION OF BOY, FLAGS, LOGO"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Menu also contains French text",
+          "menu also contains French text"
+        ],
+        "to": "Menu also contains French text"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COAT OF ARMS;",
+          "COAT OF ARMS"
+        ],
+        "to": "COAT OF ARMS;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pierre roof dinner",
+          "Pierre Roof Dinner"
+        ],
+        "to": "Pierre roof dinner"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Menu is in tatters",
+          "menu is in tatters"
+        ],
+        "to": "Menu is in tatters"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES PRICED WINE LIST;",
+          "INCLUDES PRICED WINE LIST"
+        ],
+        "to": "INCLUDES PRICED WINE LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALL ITEMS PRICED;",
+          "ALL ITEMS PRICED ;"
+        ],
+        "to": "ALL ITEMS PRICED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASSENGERS ON DECK;  MENU IN GERMAN;  MAY BE USED AS POSTCARD;",
+          "PASSENGERS ON DECK; MENU IN GERMAN;  MAY BE USED AS POSTCARD;"
+        ],
+        "to": "PASSENGERS ON DECK;  MENU IN GERMAN;  MAY BE USED AS POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRENCH;",
+          "FRENCH"
+        ],
+        "to": "FRENCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "\"The Virginians\"",
+          "The Virginians"
+        ],
+        "to": "\"The Virginians\""
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN; MAP ON BACK SHOWING THE ROUTE;",
+          "MENU HANDWRITTEN; MAP ON THE BACK SHOWING THE ROUTE;"
+        ],
+        "to": "MENU HANDWRITTEN; MAP ON BACK SHOWING THE ROUTE;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Includes a la carte and table d'hote menu options.  Insert : Specials.",
+          "Includes a la carte and table d'hote menu options. Insert : \"A la carte specials.\""
+        ],
+        "to": "Includes a la carte and table d'hote menu options.  Insert : Specials."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES WINES SERVED WITH EACH COURSE; SILK RIBBON ATTACHMENT",
+          "INCLUDES WINES SERVED WITH EACH COURSE; SILK RIBBON ATTACHMENT;"
+        ],
+        "to": "INCLUDES WINES SERVED WITH EACH COURSE; SILK RIBBON ATTACHMENT"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN;FLAG;",
+          "HAND-WRITTEN;FLAG;"
+        ],
+        "to": "HANDWRITTEN;FLAG;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRICED A LA CARTE MENU; PRICED WINE LIST;",
+          "A LA CARTE MENU; PRICED WINE LIST;"
+        ],
+        "to": "PRICED A LA CARTE MENU; PRICED WINE LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "menu also printed in French",
+          "Menu also printed in French"
+        ],
+        "to": "menu also printed in French"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "lunch counter - dinner",
+          "lunch counter dinner"
+        ],
+        "to": "lunch counter - dinner"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A LA CARTE MENU; INCLUDES PRICED WINE & LIQUOR LIST;",
+          "A LA CARTE PRICED MENU; INCLUDES PRICED WINE & LIQUOR LIST;"
+        ],
+        "to": "A LA CARTE MENU; INCLUDES PRICED WINE & LIQUOR LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DECORATIVE WREATH",
+          "DECORATIVE WREATH;"
+        ],
+        "to": "DECORATIVE WREATH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Secondary languages are Swedish and English.",
+          "Swedish and English are secondary languages"
+        ],
+        "to": "Secondary languages are Swedish and English."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN IN LAVENDAR INK & THEN PRINTED; DECORATIVE BORDER;",
+          "DECORATIVE BORDER; HANDWRITTEN IN LAVENDAR INK & THEN PRINTED;"
+        ],
+        "to": "HANDWRITTEN IN LAVENDAR INK & THEN PRINTED; DECORATIVE BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Room Service (Luncheon)",
+          "Room Service Luncheon"
+        ],
+        "to": "Room Service (Luncheon)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TYPEWRITTEN ON FORM;2 COPIES;",
+          "TYPEWRITTEN ON FORM;2 COPIES"
+        ],
+        "to": "TYPEWRITTEN ON FORM;2 COPIES;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Barbers' Supply Dealers' Association of America",
+          "Barbers' Supply Dealers Association of America"
+        ],
+        "to": "Barbers' Supply Dealers' Association of America"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Menu also in French",
+          "menu also in French"
+        ],
+        "to": "Menu also in French"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Chinese restaurant menu. Includes American and Chinese menus.",
+          "Chinese restaurant menu. Includes Chinese and American menus. "
+        ],
+        "to": "Chinese restaurant menu. Includes American and Chinese menus."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN, PICTURE OF SAILING SHIP CAPTIONED AUSTRALIA AND GOLDEN GATE;",
+          "HANDWRITTEN, PICTURE OF SAILING SHIP CAPTIONED AUSTRALIA, AND GOLDEN GATE;"
+        ],
+        "to": "HANDWRITTEN, PICTURE OF SAILING SHIP CAPTIONED AUSTRALIA AND GOLDEN GATE;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WINE LIST ON BACK PRICED IN BRITISH CURRENCY;",
+          "WINE LIST PRICED IN BRITISH CURRENCY ON BACK;"
+        ],
+        "to": "WINE LIST ON BACK PRICED IN BRITISH CURRENCY;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "station café - luncheon",
+          "station café luncheon"
+        ],
+        "to": "station café - luncheon"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection; includes an insert with specialties of the day; last page is an excerpt from \"Delmonico's - A Century of Splendor\" by Lately Thomas.",
+          "Dieter Zander Collection; includes insert with specialties of the day; last page is an excerpt from \"Delmonico's - A Century of Splendor\" by Lately Thomas."
+        ],
+        "to": "Dieter Zander Collection; includes an insert with specialties of the day; last page is an excerpt from \"Delmonico's - A Century of Splendor\" by Lately Thomas."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pierre Roof Dejeuner",
+          "Pierre roof dejeuner"
+        ],
+        "to": "Pierre Roof Dejeuner"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Society of the Friendly Sons of St. Patrick",
+          "Society of the Friendly Sons of St. Patrick"
+        ],
+        "to": "The Society of the Friendly Sons of St. Patrick"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection, cover is an antique print from the Bernard Gerard Collection.",
+          "Dieter Zander Collection, cover is an antique print from the Bernard Gerard Collection. "
+        ],
+        "to": "Dieter Zander Collection, cover is an antique print from the Bernard Gerard Collection."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Pilgrims",
+          "The Pilgrims  "
+        ],
+        "to": "The Pilgrims"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Evacuation Day - Old Guard",
+          "Old Guard - Evacuation Day"
+        ],
+        "to": "Evacuation Day - Old Guard"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New England Society in the City of New York",
+          "The New England Society in the City of New York"
+        ],
+        "to": "New England Society in the City of New York"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Christmas Dinner menu",
+          "Christmas dinner menu"
+        ],
+        "to": "Christmas Dinner menu"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Spanish is secondary language",
+          "Spanish is secondary language. "
+        ],
+        "to": "Spanish is secondary language"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LOGO; PRICED MENU; NOTE ABOUT PURITY OF WATER;",
+          "PRICED MENU; LOGO; NOTE ABOUT PURITY OF WATER;"
+        ],
+        "to": "LOGO; PRICED MENU; NOTE ABOUT PURITY OF WATER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN BOTH GERMAN & ENGLISH;",
+          "MENU IN BOTH GERMAN & ENGLISH"
+        ],
+        "to": "MENU IN BOTH GERMAN & ENGLISH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU HANDWRITTEN; MAP ON BACK SHOWING ROUTE;",
+          "HANDWRITTEN MENU; MAP ON BACK SHOWING ROUTE;"
+        ],
+        "to": "MENU HANDWRITTEN; MAP ON BACK SHOWING ROUTE;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dieter Zander Collection; cover illustrated with dining gentleman; contains a specials insert",
+          "Dieter Zander Collection; illustrated cover with dining gentleman; contains a specials insert"
+        ],
+        "to": "Dieter Zander Collection; cover illustrated with dining gentleman; contains a specials insert"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRENCH; HOTEL SEAL AT TOP;",
+          "FRENCH; HOTEL SEAL AT TOP;'"
+        ],
+        "to": "FRENCH; HOTEL SEAL AT TOP;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FRENCH MENU",
+          "FRENCH MENU;"
+        ],
+        "to": "FRENCH MENU"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "General Superintendent, Dining Car Service : John F. Finnegan.",
+          "General Superintendent, Dining Car Service : John F. Finnegan. "
+        ],
+        "to": "General Superintendent, Dining Car Service : John F. Finnegan."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH;",
+          "MENU IN FRENCH"
+        ],
+        "to": "MENU IN FRENCH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Menu also written in French",
+          "menu also written in French"
+        ],
+        "to": "Menu also written in French"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA;JAPAN;",
+          "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA,JAPAN;"
+        ],
+        "to": "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA;JAPAN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COMPLETE WINE LIST ON BACK;",
+          "COMPLETE WINE LIST ON BACK'"
+        ],
+        "to": "COMPLETE WINE LIST ON BACK;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Newspaper Publishers Association",
+          "American Newspaper Publishers' Association"
+        ],
+        "to": "American Newspaper Publishers Association"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "grill room luncheon",
+          "Grill Room Luncheon"
+        ],
+        "to": "grill room luncheon"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN;",
+          "MENU IN GERMAN"
+        ],
+        "to": "MENU IN GERMAN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PROGRAM & COMMITTEE MEMBERS LISTED;",
+          "PROGRAM LISTED; COMMITTEE MEMBERS LISTED;"
+        ],
+        "to": "PROGRAM & COMMITTEE MEMBERS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SEPARATE LISTING IN ENGLISH AND GERMAN;TO BE USED AS A POSTCARD",
+          "SEPARATE LISTING IN ENGLISH AND GERMAN;TO BE USED AS A POSTCARD;"
+        ],
+        "to": "SEPARATE LISTING IN ENGLISH AND GERMAN;TO BE USED AS A POSTCARD"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "fragile",
+          "fragile!!"
+        ],
+        "to": "fragile"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DISHES IN ENGLISH, COURSES IN ENGLISH AND SPANISH; ORNAMENTAL BORDER;",
+          "ORNAMENTAL BORDER; DISHES IN ENGLISH; COURSES IN ENGLISH AND SPANISH;"
+        ],
+        "to": "DISHES IN ENGLISH, COURSES IN ENGLISH AND SPANISH; ORNAMENTAL BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES WINE LIST",
+          "INCLUDES WINE LIST;"
+        ],
+        "to": "INCLUDES WINE LIST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GERMAN & ENGLISH;",
+          "GERMAN/ENGLISH;"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH;"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN AND ENGLISH",
+          "MENU IN GERMAN AND ENGLISH;"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "H.S.CLEMENT,PROP. LISTED;",
+          "H.S. CLEMENT, PROP.LISTED;",
+          "H.S.CLEMENT, PROP. LISTED;",
+          "H.S.CLEMENT, PROP.LISTED;",
+          "H.S.CLEMENT,PROP.LISTED;"
+        ],
+        "to": "H.S.CLEMENT,PROP. LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASSENGERS ON DECK;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;",
+          "PASSENGERS ON DECK; MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;",
+          "PASSENGERSON DECK; MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;"
+        ],
+        "to": "PASSENGERS ON DECK;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "  ",
+          "r"
+        ],
+        "to": "  "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SHIPS AT SEA;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;",
+          "SHIPS AT SEA; MENUS SEPARATE IN GERMAN AND ENGLISH; MAY BE USED AS POSTCARD;"
+        ],
+        "to": "SHIPS AT SEA;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RED FLAG WITH STAR;MONOGRAM;",
+          "RED FLAG WITH STAR; MONOGRAM;"
+        ],
+        "to": "RED FLAG WITH STAR;MONOGRAM;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Camp-fire Club of America",
+          "The Camp Fire Club of America"
+        ],
+        "to": "The Camp-fire Club of America"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN; GREEN BORDER;",
+          "HANDWRITTEN;GREEN BORDER;"
+        ],
+        "to": "HANDWRITTEN; GREEN BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DISHES IN ENGLISH, COURSES IN ENGLISH AND SPANISH; ORNAMENTAL BORDER;",
+          "DISHES IN ENGLISH, COURSE NAMES IN ENGLISH AND SPANISH; ORNAMENTAL BORDER;"
+        ],
+        "to": "DISHES IN ENGLISH, COURSES IN ENGLISH AND SPANISH; ORNAMENTAL BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN IN COLORED INK;",
+          "HANDWRITTEN INCOLORED INK;"
+        ],
+        "to": "HANDWRITTEN IN COLORED INK;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INCLUDES PRICED WINE LIST;",
+          "INCLUDES PRICED WINE-LIST;"
+        ],
+        "to": "INCLUDES PRICED WINE LIST;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALL WINES & LIQUORS LISTED;",
+          "ALLWINES & LIQUORS LISTED;"
+        ],
+        "to": "ALL WINES & LIQUORS LISTED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SHIP AT SEA;MENU IN GERMAN AND ENGLISH ;MUSICAL PROGRAM;",
+          "SHIP AT SEA;MENU IN GERMAN AND ENGLISH;MUSICAL PROGRAM;"
+        ],
+        "to": "SHIP AT SEA;MENU IN GERMAN AND ENGLISH ;MUSICAL PROGRAM;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SHIP AT SEA;WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS;CITYSCAPE IN BACKGROUND;MENU IN GERMAN AND ENGLISH;",
+          "SHIP AT SEA; WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS; CITYSCAPE IN BACKGROUND; MENU IN GERMAN AND ENGLISH;"
+        ],
+        "to": "SHIP AT SEA;WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS;CITYSCAPE IN BACKGROUND;MENU IN GERMAN AND ENGLISH;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HANDWRITTEN; RED BORDER;",
+          "HANDWRITTEN;RED BORDER;"
+        ],
+        "to": "HANDWRITTEN; RED BORDER;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2 images; digitize parts A, B (c.1)",
+          "2 images; digitize parts A,B (c.1)"
+        ],
+        "to": "2 images; digitize parts A, B (c.1)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "STEAMSHIP LINE LOGO AT TOP OF MENU; PRICED WINE, LIQUOR & TOBACCO LIST ON BACK OF MENU;",
+          "STEAMSHIP LOGO AT TOP OF MENU; PRICED WINE, LIQUOR, TOBACCO LIST ON BACK OF MENU;"
+        ],
+        "to": "STEAMSHIP LINE LOGO AT TOP OF MENU; PRICED WINE, LIQUOR & TOBACCO LIST ON BACK OF MENU;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN FRENCH,WINES INCLUDED;",
+          "MENU IN FRENCH; WINES INCLUDED;"
+        ],
+        "to": "MENU IN FRENCH,WINES INCLUDED;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DATE HANDWRITTEN;",
+          "DATE HAND WRITTEN;"
+        ],
+        "to": "DATE HANDWRITTEN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GERMAN AND ENGLISH MENU LISTED SEPARATELY;TO BE USED AS A POSTCARD;",
+          "GERMAN AND ENGLISH MENU LISTED SEPARATELY; TO BE USED AS A POSTCARD;"
+        ],
+        "to": "GERMAN AND ENGLISH MENU LISTED SEPARATELY;TO BE USED AS A POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COASTAL SCENE;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;",
+          "COASTAL SCENE; MENUS SEPARATE IN GERMAN AND ENGLISH; MAY BE USED AS POSTCARD;"
+        ],
+        "to": "COASTAL SCENE;MENUS SEPARATE IN GERMAN AND ENGLISH;MAY BE USED AS POSTCARD;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SHIP AT SEA;WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS;CITYSCAPE IN BACKGROUND;MENU IN GERMAN;",
+          "SHIP AT SEA; WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS; CITYSCAPE IN BACKGROUND; MENU IN GERMAN;"
+        ],
+        "to": "SHIP AT SEA;WOMAN HOLDING SHIELD AMONG FOOD AND IMPLEMENTS;CITYSCAPE IN BACKGROUND;MENU IN GERMAN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA;JAPAN;",
+          "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA, JAPAN;"
+        ],
+        "to": "B&W PHOTOGRAPHS OF VARIOUS POINTS OF INTEREST IN AMERICA, HAWAII, CHINA;JAPAN;"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HAND WRITTEN;",
+          "HANDWRITTEN;"
+        ],
+        "to": "HAND WRITTEN;"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "notes",
+          "type": "text",
+          "columnName": "notes"
+        }
+      ]
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN BOTH GERMAN & ENGLISH;"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH;"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "notes",
+          "type": "text",
+          "columnName": "notes"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "MENU IN GERMAN AND ENGLISH",
+                "l": "MENU IN GERMAN AND ENGLISH"
+              }
+            },
+            {
+              "v": {
+                "v": "MENU IN GERMAN AND ENGLISH;",
+                "l": "MENU IN GERMAN AND ENGLISH;"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "notes",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "notes"
+        }
+      ]
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN AND ENGLISH;",
+          "MENU IN GERMAN AND ENGLISH"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH;"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column notes",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "notes",
+          "type": "text",
+          "columnName": "notes"
+        }
+      ]
+    },
+    "columnName": "notes",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MENU IN GERMAN & ENGLISH;"
+        ],
+        "to": "MENU IN GERMAN AND ENGLISH;"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Is German and English at index 9 based on column notes using expression grel:value.contains(\"MENU IN GERMAN AND ENGLISH\") OR value.contains(\"MENU IN ENGLISH AND GERMAN\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "notes",
+          "type": "text",
+          "columnName": "notes"
+        }
+      ]
+    },
+    "newColumnName": "Is German and English",
+    "columnInsertIndex": 9,
+    "baseColumnName": "notes",
+    "expression": "grel:value.contains(\"MENU IN GERMAN AND ENGLISH\") OR value.contains(\"MENU IN ENGLISH AND GERMAN\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column call_number using expression grel:value.replace(\"_wotm\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "call_number",
+          "type": "text",
+          "columnName": "call_number"
+        }
+      ]
+    },
+    "columnName": "call_number",
+    "expression": "grel:value.replace(\"_wotm\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column event",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER/DINER",
+          "DINER/DINNER",
+          "DINNER, DINER"
+        ],
+        "to": "DINNER/DINER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LUNCH & DINNER",
+          "LUNCH-DINNER"
+        ],
+        "to": "LUNCH & DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER A LA CARTE",
+          "DINNER-A LA CARTE"
+        ],
+        "to": "DINNER A LA CARTE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY MENU,LUNCHEON"
+        ],
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WEDDING DINNER",
+          "(WEDDING)DINNER"
+        ],
+        "to": "WEDDING DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BREAKFAST - SECOND CABIN",
+          "BREAKFAST-SECOND CABIN"
+        ],
+        "to": "BREAKFAST - SECOND CABIN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BREAKFAST,LUNCH & DINNER",
+          "BREAKFAST; LUNCH; DINNER"
+        ],
+        "to": "BREAKFAST,LUNCH & DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DAILY MENU, SUPPER",
+          "DAILY MENU,SUPPER"
+        ],
+        "to": "DAILY MENU, SUPPER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN/DINNER"
+        ],
+        "to": "MITTAGESSEN - DINNER"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DEJEUNER FOURCHETTE/LUNCHEON",
+          "DEJEUNER FOURCHETTE/ LUNCHEON"
+        ],
+        "to": "DEJEUNER FOURCHETTE/LUNCHEON"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER,SECOND CABIN"
+        ],
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FOURTH OF JULY DINNER",
+          "FOURTH OFJULY DINNER"
+        ],
+        "to": "FOURTH OF JULY DINNER"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column venue",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "venue",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOC, MIL",
+          "SOC;MIL;"
+        ],
+        "to": "SOC, MIL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER (CLUB);",
+          "OTHER,Club"
+        ],
+        "to": "OTHER (CLUB);"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOC,RELIG",
+          "SOC; RELIG;"
+        ],
+        "to": "SOC,RELIG"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FOREIGN,HOTEL",
+          "FOREIGN; HOTEL;"
+        ],
+        "to": "FOREIGN,HOTEL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOC, COM",
+          "SOC;COM;"
+        ],
+        "to": "SOC, COM"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOCIAL CLUB",
+          "SOCIAL;(CLUB);"
+        ],
+        "to": "SOCIAL CLUB"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTHER;(PRIVATE);",
+          "OTHER (PRIVATE);"
+        ],
+        "to": "OTHER;(PRIVATE);"
+      }
+    ]
+  }
+]

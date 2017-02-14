@@ -1,0 +1,19 @@
+(i)
+Event: 1641
+Venue: 135
+
+(ii)
+value.toDate('yyyy-mm-dd').toString('EEEE MMMM d, yyyy')
+
+(iii)
+nominal col: location
+ordinal col: status
+
+(iv)
+value.contains(“MENU IN GERMAN AND ENGLISH”) OR value.contains(“MENU IN ENGLISH AND GERMAN”)
+
+(v)
+value.replace("_wotm", "")
+
+(vi) 
+we can split one column into several columnss. Notice that “notes” column has too many contents, which will make cluster more hard. If we can split it into several columns, then we can cluster each column much easier.

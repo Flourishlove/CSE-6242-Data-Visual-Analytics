@@ -1,0 +1,1 @@
+Layout use "Force Atlas", set "Repulsion strengh" to 10000, adjust by size. Compute "Average Path Length" and apply "Betweeness Centrallity" to node color. Use Degree Range filter to display important nodes' labels.

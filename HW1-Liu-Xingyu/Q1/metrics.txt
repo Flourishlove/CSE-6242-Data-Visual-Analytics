@@ -1,0 +1,3 @@
+Average node degree: Each node has its degree which equals to lines connect to it. Average just means mean. (2.167)
+Diameter of the graph: The greatest distance between any pair of vertices. (4)
+Average path length: Any pair of two nodes has path length, then average means compute sum of all the pair of nodes and divided by sum of nodes.(3.657)
