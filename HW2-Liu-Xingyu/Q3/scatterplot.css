@@ -1,0 +1,29 @@
+circle {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+
+.triangle {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+
+.square {
+  fill: none;
+  stroke: blue;
+  stroke-width: 1.5px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}

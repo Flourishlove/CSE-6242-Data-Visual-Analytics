@@ -1,0 +1,249 @@
+id,name,sat_avg
+2,Alaska Pacific University,1008
+1,Auburn University,1215
+1,University of Alabama in Huntsville,1180
+1,Birmingham Southern College,1177
+1,The University of Alabama,1171
+1,Samford University,1153
+5,Hendrix College,1267
+5,University of Arkansas,1156
+5,John Brown University,1144
+5,Lyon College,1142
+5,Harding University,1139
+4,Embry-Riddle Aeronautical University-Prescott,1171
+4,Arizona State University-Tempe,1145
+4,University of Arizona,1106
+4,Arizona State University-Polytechnic,1106
+4,Prescott College,1094
+6,California Institute of Technology,1534
+6,Harvey Mudd College,1483
+6,Stanford University,1466
+6,Pomona College,1454
+6,Claremont McKenna College,1397
+8,Colorado College,1323
+8,Colorado School of Mines,1298
+8,University of Denver,1231
+8,University of Colorado Boulder,1192
+8,Colorado State University-Fort Collins,1127
+9,Yale University,1497
+9,Wesleyan University,1387
+9,Trinity College,1240
+9,University of Connecticut,1233
+9,Quinnipiac University,1102
+11,Georgetown University,1398
+11,George Washington University,1297
+11,American University,1258
+11,Catholic University of America,1118
+11,Howard University,1081
+10,University of Delaware,1178
+10,Delaware State University,890
+10,Wesley College,841
+12,University of Miami,1332
+12,New College of Florida,1283
+12,University of Florida,1272
+12,Florida State University,1212
+12,Rollins College,1199
+13,Emory University,1363
+13,Georgia Institute of Technology-Main Campus,1352
+13,University of Georgia,1247
+13,Berry College,1186
+13,Covenant College,1173
+15,University of Hawaii at Manoa,1087
+15,Brigham Young University-Hawaii,1081
+15,Hawaii Pacific University,1005
+15,Chaminade University of Honolulu,972
+15,University of Hawaii at Hilo,967
+19,Grinnell College,1357
+19,Drake University,1240
+19,University of Iowa,1208
+19,Cornell College,1182
+19,Luther College,1175
+16,Northwest Nazarene University,1079
+16,University of Idaho,1070
+16,The College of Idaho,1070
+16,Boise State University,1050
+16,Brigham Young University-Idaho,1036
+17,University of Chicago,1504
+17,Northwestern University,1458
+17,Wheaton College,1318
+17,University of Illinois at Urbana-Champaign,1303
+17,Illinois Institute of Technology,1252
+17,Illinois Wesleyan University,1241
+18,University of Notre Dame,1450
+18,Rose-Hulman Institute of Technology,1310
+18,Earlham College,1262
+18,DePauw University,1215
+18,Taylor University,1214
+20,Benedictine College,1145
+20,University of Kansas,1145
+20,Wichita State University,1089
+20,Baker University,1086
+20,Newman University,1079
+21,Centre College,1268
+21,Transylvania University,1213
+21,University of Louisville,1142
+21,University of Kentucky,1140
+21,Bellarmine University,1116
+22,Tulane University of Louisiana,1341
+22,Louisiana State University and Agricultural & Mechanical College,1162
+22,Loyola University New Orleans,1143
+22,Centenary College of Louisiana,1131
+22,Louisiana Tech University,1089
+25,Massachusetts Institute of Technology,1503
+25,Harvard University,1501
+25,Franklin W Olin College of Engineering,1475
+25,Williams College,1439
+25,Amherst College,1434
+24,Johns Hopkins University,1418
+24,University of Maryland-College Park,1310
+24,St Mary's College of Maryland,1221
+24,University of Maryland-Baltimore County,1209
+24,Loyola University Maryland,1194
+23,Bowdoin College,1423
+23,Colby College,1343
+23,University of Maine,1085
+23,University of New England,1057
+23,Maine Maritime Academy,1026
+26,University of Michigan-Ann Arbor,1352
+26,Kalamazoo College,1240
+26,Michigan Technological University,1206
+26,Hope College,1204
+26,Kettering University,1198
+27,Carleton College,1406
+27,Macalester College,1350
+27,St Olaf College,1290
+27,University of Minnesota-Twin Cities,1270
+27,Gustavus Adolphus College,1224
+29,Washington University in St Louis,1474
+29,Missouri University of Science and Technology,1263
+29,Truman State University,1243
+29,Saint Louis University,1237
+29,Conception Seminary College,1165
+28,Millsaps College,1159
+28,Mississippi State University,1106
+28,William Carey University,1105
+28,University of Mississippi,1100
+28,Mississippi College,1098
+30,Montana Tech of the University of Montana,1115
+30,Montana State University,1115
+30,Carroll College,1112
+30,The University of Montana,1090
+30,Rocky Mountain College,1024
+37,Duke University,1444
+37,Davidson College,1353
+37,University of North Carolina at Chapel Hill,1313
+37,North Carolina State University at Raleigh,1229
+37,Elon University,1200
+38,North Dakota State University-Main Campus,1091
+38,University of North Dakota,1090
+38,University of Mary,1046
+38,University of Jamestown,1038
+38,Minot State University,1004
+31,Creighton University,1214
+31,University of Nebraska-Lincoln,1147
+31,Clarkson College,1110
+31,Nebraska Wesleyan University,1109
+31,Concordia University-Nebraska,1091
+33,Dartmouth College,1446
+33,Saint Anselm College,1145
+33,University of New Hampshire-Main Campus,1100
+33,University of New Hampshire at Manchester,1020
+33,Franklin Pierce University,975
+34,Princeton University,1495
+34,Stevens Institute of Technology,1305
+34,The College of New Jersey,1235
+34,Rutgers University-New Brunswick,1210
+34,New Jersey Institute of Technology,1142
+35,New Mexico Institute of Mining and Technology,1200
+35,University of New Mexico-Main Campus,1038
+35,Santa Fe University of Art and Design,998
+35,New Mexico State University-Main Campus,982
+35,New Mexico Military Institute,967
+32,University of Nevada-Reno,1081
+32,University of Nevada-Las Vegas,1003
+36,Columbia University in the City of New York,1471
+36,Webb Institute,1435
+36,Cornell University,1422
+36,Vassar College,1394
+36,Hamilton College,1384
+39,Case Western Reserve University,1377
+39,Oberlin College,1354
+39,Kenyon College,1328
+39,Ohio State University-Main Campus,1289
+39,Denison University,1285
+40,University of Tulsa,1279
+40,University of Oklahoma-Norman Campus,1176
+40,Oklahoma City University,1163
+40,Oklahoma State University-Main Campus,1138
+40,Oklahoma Christian University,1124
+41,Reed College,1371
+41,Lewis & Clark College,1279
+41,Willamette University,1198
+41,University of Portland,1195
+41,University of Oregon,1108
+42,University of Pennsylvania,1442
+42,Swarthmore College,1442
+42,Carnegie Mellon University,1432
+42,Haverford College,1400
+42,Bryn Mawr College,1334
+72,University of Puerto Rico-Rio Piedras,1195
+72,University of Puerto Rico-Cayey,1094
+72,University of Puerto Rico-Aguadilla,1038
+72,University of Puerto Rico-Carolina,1029
+44,Brown University,1425
+44,Rhode Island School of Design,1239
+44,Providence College,1158
+44,Bryant University,1137
+44,Salve Regina University,1109
+45,Clemson University,1259
+45,Furman University,1237
+45,University of South Carolina-Columbia,1200
+45,Wofford College,1186
+45,College of Charleston,1165
+46,South Dakota School of Mines and Technology,1183
+46,Augustana College,1105
+46,University of South Dakota,1090
+46,University of Sioux Falls,1064
+46,Dakota Wesleyan University,1058
+47,Vanderbilt University,1475
+47,Rhodes College,1288
+47,Sewanee-The University of the South,1248
+47,The University of Tennessee-Knoxville,1199
+47,Belmont University,1193
+48,Rice University,1454
+48,Southern Methodist University,1302
+48,Trinity University,1270
+48,The University of Texas at Austin,1262
+48,The University of Texas at Dallas,1262
+49,Brigham Young University-Provo,1277
+49,Westminster College,1134
+49,University of Utah,1109
+49,Neumont University,1104
+49,Utah State University,1087
+51,Washington and Lee University,1392
+51,University of Virginia-Main Campus,1362
+51,College of William and Mary,1358
+51,University of Richmond,1313
+51,Virginia Polytechnic Institute and State University,1220
+78,University of the Virgin Islands,807
+50,Middlebury College,1391
+50,University of Vermont,1190
+50,Saint Michael's College,1173
+50,Champlain College,1122
+50,Norwich University,1065
+53,Whitman College,1327
+53,University of Washington-Seattle Campus,1234
+53,University of Puget Sound,1233
+53,DigiPen Institute of Technology,1225
+53,Gonzaga University,1204
+55,University of Wisconsin-Madison,1268
+55,Milwaukee School of Engineering,1244
+55,Beloit College,1227
+55,Marquette University,1217
+55,Ripon College,1130
+54,West Virginia University,1062
+54,Appalachian Bible College,1026
+54,Wheeling Jesuit University,1023
+54,Marshall University,1022
+54,West Virginia Wesleyan College,1021
+56,University of Wyoming,1123
