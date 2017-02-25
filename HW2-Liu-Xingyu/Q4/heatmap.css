@@ -1,0 +1,27 @@
+body {
+  font: 10px sans-serif;
+}
+h2 {
+    text-align: center;
+}
+
+.select {
+    margin: 0 auto;
+
+}
+
+.label {
+  font-weight: bold;
+}
+
+.tile {
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
