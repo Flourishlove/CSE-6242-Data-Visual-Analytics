@@ -105,12 +105,7 @@ function processData(error, data_teams, data_races) {
       return "<strong> <span style='color:black'></strong>" + d.source.name + " → " +
                 d.target.name + "\n" + format(d.value) + "</span>";
     });
-/*
-  link.append("title")
-        .text(function(d) {
-            return d.source.name + " → " +
-                d.target.name + "\n" + format(d.value); });
-*/
+
   svg.call(tip);
   link.on('mouseover', tip.show)
       .on('mouseout', tip.hide);
