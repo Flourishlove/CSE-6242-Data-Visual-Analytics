@@ -31,9 +31,6 @@ d3.queue()
     .await(processData);
 
 function processData(error, data_teams, data_races) {
-    // do something with the data
-    //console.log("CSV1", data_teams);
-    //console.log("CSV2", data_races);
 
     var links = [];
     var nodes = [];
