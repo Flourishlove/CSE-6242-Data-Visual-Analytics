@@ -1,0 +1,18 @@
+.rectangle {
+    fill: steelblue;
+}
+.rectangle:hover {
+    fill: orange;
+}
+.temprect{
+    fill: orange;
+}
+.axis {
+  font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+}

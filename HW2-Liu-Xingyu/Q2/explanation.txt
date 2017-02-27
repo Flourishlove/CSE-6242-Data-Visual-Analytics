@@ -1,0 +1,1 @@
+I use square root for scaling. Because it won't let those nodes with many degree become too big.
