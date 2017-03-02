@@ -17,7 +17,6 @@ var data = [{product:'Product A',freq:{Q1:576, Q2:1176, Q3:1009, Q4:494}},
 {product:'Product G',freq:{Q1:1457, Q2:2557, Q3:2245, Q4:762}},
 {product:'Product H',freq:{Q1:2573, Q2:3357, Q3:1598, Q4:1287}}];
 
-console.log(data.length);
 var padding = 8;
 
 var x = d3.scale.linear()
@@ -56,14 +55,13 @@ svg.selectAll("rectangle")
     })
     .attr("transform", "rotate(-90)" )
     .on("mouseover", function(d){
-        console.log(data[d3.select(this).attr("value")]);
+        //console.log(data[d3.select(this).attr("value")]);
         tempdata = [];
         tempaxis = ["Q1","Q2","Q3","Q4"];
         tempdata.push(data[d3.select(this).attr("value")].freq.Q1);
         tempdata.push(data[d3.select(this).attr("value")].freq.Q2);
         tempdata.push(data[d3.select(this).attr("value")].freq.Q3);
         tempdata.push(data[d3.select(this).attr("value")].freq.Q4);
-        console.log(tempdata);
 
         svg.append("g")
         .attr("class","forDele")

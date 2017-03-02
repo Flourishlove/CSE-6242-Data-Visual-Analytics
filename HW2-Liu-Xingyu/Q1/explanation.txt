@@ -1,0 +1,3 @@
+a. I choose excel. In excel, we can easily compute total population using fx to sum all the cells.
+
+b. I put country in row and populations (vary in age and gender) in columns where we can compare age and gender in x axis.  After that, I put location as color where we can tell most refugees come from which location.

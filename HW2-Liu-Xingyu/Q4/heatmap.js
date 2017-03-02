@@ -12,6 +12,8 @@ var x = d3.scale.linear().range([50, width-50]),
     y = d3.scale.linear().range([height-40, 50]),
     z = d3.scale.linear().range(["papayawhip", "red"]);
 
+var timeX = d3.time.scale().domain([new Date(2012, 0, 1), new Date(2012, 10, 31)]).range([50, width-50]);
+
 // The size of the buckets in the CSV data file.
 // This could be inferred from the data if it weren't sparse.
 var xStep = 1,
@@ -42,7 +44,7 @@ d3.csv("heatmap.csv", function(error, buckets) {
   // Compute the scale domains.
   x.domain([d3.min(buckets, function(d) { return d.Month; }), d3.max(buckets, function(d) { return d.Month; })]);
   y.domain(d3.extent(buckets, function(d) { return d.Year; }));
-  z.domain([0, d3.max(buckets, function(d) { return d.Power; })]);
+  //z.domain([0, d3.max(buckets, function(d) { return d.Power; })]);
 
   selectbox.on('change',onchange);
 
@@ -54,8 +56,11 @@ d3.csv("heatmap.csv", function(error, buckets) {
   .property("selected", function(d){ return d == 90077; })
     .text(function (d) { return d; });
 
+  var zipdata = buckets.filter(function(d) { return d.Zip_Code == 90077; });
+  z.domain(d3.extent(zipdata, function(d) { return d.Power; }));
+
   svg.selectAll(".tile")
-      .data(buckets.filter(function(d) { return d.Zip_Code == 90077; }))
+      .data(zipdata)
       .enter().append("rect")
       .attr("class", "tile")
       .attr("x", function(d) { return x(d.Month - 0.5); })
@@ -65,15 +70,6 @@ d3.csv("heatmap.csv", function(error, buckets) {
       .style("fill", function(d) {
         return z(d.Power);
       } );
-
-  function onchange() {
-    selectValue = d3.select(this).property('value');
-    var cards = svg.selectAll(".tile")
-      .data(buckets.filter(function(d) { return d.Zip_Code == selectValue; }));
-
-    cards.transition().duration(500)
-      .style("fill", function(d) { return z(d.Power)} );
-  };
 
   // Add a legend for the color values.
   var legend = svg.selectAll(".legend")
@@ -88,6 +84,7 @@ d3.csv("heatmap.csv", function(error, buckets) {
       .style("fill", z);
 
   legend.append("text")
+      .attr("class", "pownum")
       .attr("x", 26)
       .attr("y", 10)
       .attr("dy", ".35em")
@@ -100,11 +97,45 @@ d3.csv("heatmap.csv", function(error, buckets) {
       .attr("dy", ".35em")
       .text("kWh");
 
+  function onchange() {
+    selectValue = d3.select(this).property('value');
+    var cards = svg.selectAll(".tile")
+      .data(buckets.filter(function(d) { return d.Zip_Code == selectValue; }));
+
+    var zipdata = buckets.filter(function(d) { return d.Zip_Code == selectValue; });
+    z.domain(d3.extent(zipdata, function(d) { return d.Power; }));
+
+    cards.transition().duration(500)
+      .style("fill", function(d) { return z(d.Power)} );
+
+    svg.selectAll(".legend").remove();
+
+    var templegend = svg.selectAll(".legend")
+      .data(z.ticks(6).slice(0).reverse())
+      .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(" + (width + 20) + "," + (20 + i * 20) + ")"; });;
+
+    templegend.append("rect")
+      .attr("width", 20)
+      .attr("height", 20)
+      .style("fill", z);
+
+    templegend.append("text")
+      .attr("class", "pownum")
+      .attr("x", 26)
+      .attr("y", 10)
+      .attr("dy", ".35em")
+      .text(String);
+
+  };
+
   // Add an x-axis with label.
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.svg.axis().scale(x).orient("bottom"))
+      .call(d3.svg.axis().scale(timeX).orient("bottom").ticks(d3.time.months)
+    .tickFormat(d3.time.format("%B")))
     .append("text")
       .attr("class", "label")
       .attr("x", width)
