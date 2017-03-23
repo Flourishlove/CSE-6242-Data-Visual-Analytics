@@ -6,6 +6,7 @@ import java.lang.Object;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.conf.Configuration;
+
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.util.*;
@@ -55,7 +56,7 @@ public class Q4 {
 
     public void map(Object key, Text value, Context context
                     ) throws IOException, InterruptedException {
-      StringTokenizer itr = new StringTokenizer(value.toString());
+      StringTokenizer itr = new StringTokenizer(value.toString(), "\n");
       while (itr.hasMoreTokens()) {
         String line = itr.nextToken();
         String tokens[] = line.split("\t");
@@ -94,7 +95,7 @@ public class Q4 {
     job1.setOutputValueClass(IntWritable.class);
 
     FileInputFormat.addInputPath(job1, new Path(args[0]));
-    FileOutputFormat.setOutputPath(job1, new Path("first_job_output"));
+    FileOutputFormat.setOutputPath(job1, new Path("first_output"));
 
     job1.waitForCompletion(true);
 
@@ -110,7 +111,7 @@ public class Q4 {
     job2.setOutputKeyClass(IntWritable.class);
     job2.setOutputValueClass(IntWritable.class);
 
-    FileInputFormat.addInputPath(job2, new Path("first_job_output"));
+    FileInputFormat.addInputPath(job2, new Path("first_output"));
     FileOutputFormat.setOutputPath(job2, new Path(args[1]));
     System.exit(job2.waitForCompletion(true) ? 0 : 1);
   }

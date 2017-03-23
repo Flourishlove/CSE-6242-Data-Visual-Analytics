@@ -7,4 +7,4 @@
 4. Scalable PageRank via Virtual Memory (MMap), Random Forest, Weka
 
 
-More visualization presented in each folder
+For more detail or visualization, please click each folder.
