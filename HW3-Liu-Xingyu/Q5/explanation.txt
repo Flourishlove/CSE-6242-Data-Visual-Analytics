@@ -1,1 +1,0 @@
-Change maximum number of leaves per tree from 20 to 25. for original data, we increase the size of the tree and get better precision; while for replicated data, model may be overfitting and lose accuracy.
