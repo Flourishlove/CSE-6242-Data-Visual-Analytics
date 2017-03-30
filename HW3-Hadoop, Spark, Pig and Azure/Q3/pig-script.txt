@@ -1,0 +1,7 @@
+bigrams = LOAD 's3://cse6242-2017spring-bigrams-big/*' AS (bigram:chararray, year:int, occurrences:int, books:int);
+A = FILTER bigrams BY (occurrences >= 100) AND (books >= 20);
+B = group A BY bigram;
+C = FOREACH B GENERATE $0 AS bigram, (double)SUM($1.occurrences)/(double)SUM($1.books) as avgAppear;
+D = ORDER C BY avgAppear DESC, bigram ASC;
+E = limit D 10;
+STORE E INTO 's3://cse6242-xliu488/output' USING PigStorage ('\t');

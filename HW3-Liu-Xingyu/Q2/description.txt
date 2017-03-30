@@ -1,0 +1,5 @@
+Approach: Using reflection to get two Dataframes, one for incoming and the other for outgoing. After filter and other Dataframe operations, we join them together.
+
+Line 20 and 21: Get Dataframe.
+Line 23 and 24: Calculate total incoming and outgoing weight for every node.
+Line Join two Dataframes and calculate accumulated weight.

@@ -1,0 +1,17 @@
+1.
+SVM weighted    0.704545
+SVM unweighted  0.56
+Boosted Decision Tree   weighted    0.659091
+Boosted Decision Tree   unweighted  0.582727
+
+2.
+SVM weighted    0.328704
+SVM unweighted  0.544753
+Boosted Decision Tree   weighted    0.714506
+Boosted Decision Tree   unweighted  0.662037
+
+3.
+SVM weighted    0.704545
+SVM unweighted  0.56
+Boosted Decision Tree   weighted    0.636364
+Boosted Decision Tree   unweighted  0.59
