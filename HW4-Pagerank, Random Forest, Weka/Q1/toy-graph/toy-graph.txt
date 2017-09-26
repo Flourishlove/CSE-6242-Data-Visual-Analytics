@@ -1,0 +1,9 @@
+# Toy graph
+# Assume node ID starts with 0, sorted by [source, target], ID does not have to be continuous
+0 1
+1 0
+1 2
+2 1
+3 4
+4 5
+5 2

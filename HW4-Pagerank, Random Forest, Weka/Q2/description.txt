@@ -1,0 +1,6 @@
+a.
+I choose randomly selection of attributes to form data_sample, which can improve reliability.
+In decision tree, I calculate the highest information gain among all attributes and use the attribute to split entries. In this way, we can guarantee that in each step, we choose the best attribute since it provides us with best pure classification.
+
+b.
+0.9473

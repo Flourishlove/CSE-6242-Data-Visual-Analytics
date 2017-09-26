@@ -1,0 +1,22 @@
+Section A
+1.
+    -P 100 -O -| 100 -num-slots 1 -K 9 -M 1.0 -V 0.001 -S 1
+    Time taken to build model: 0.36 seconds
+    Overall accuracy: 96.6325 %
+    Confusion Matrix:
+    a   b   <-- classified as
+    432  12 |   a = 0
+    11 228 |   b = 1
+
+2. (RandomTree)
+    -K 0 -M 1.0 -V 0.001 -S 1
+    Time taken to build model: 0.02 seconds
+    Overall accuracy: 94.1435 %
+    Confusion Matrix:
+       a   b   <-- classified as
+     426  18 |   a = 0
+      22 217 |   b = 1
+
+Section B
+1. The result of Weka is 96.63% compared to my result 94.73% because choosing split data point may affect result.
+2. I choose MLP which is a feedforward artificial neural network model. Comparing to Random Forest, it cost more time for classification since it has multiple layers and always needs feedback. And the accuracy is also as high as 96%.

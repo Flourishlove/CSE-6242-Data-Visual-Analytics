@@ -1,0 +1,7 @@
+{
+  "edge_count": 7, 
+  "edge_path": "toy-graph.bin", 
+  "index_path": "toy-graph.idx", 
+  "max_node": 5, 
+  "node_count": 6
+}
